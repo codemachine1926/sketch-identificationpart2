@@ -1,0 +1,42 @@
+#head1 {
+    background-color: black;
+    color: white !important;
+}
+body {
+    background-size: cover;
+    background-position: center;
+    color: cornsilk;
+}
+p {
+    font-size: 18px;
+}
+#un {
+    font-size: 20px;
+    color: yellowgreen !important;
+}
+span {
+    color: violet;
+}
+#h2_1 {
+    margin-right: 800px;
+    color: orangered;
+}
+#h2me {
+    margin-left: 800px;
+    color: orangered;
+    margin-top: -40px;
+}
+canvas {
+    margin-top: 100px;
+    animation-name: sketch;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes sketch {
+    from{
+        box-shadow: 5px 30px 30px cyan;
+    }
+    to{
+        box-shadow: 5px 30px 30px darkblue;
+    }
+}
